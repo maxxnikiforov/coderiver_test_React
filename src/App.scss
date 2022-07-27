@@ -3,14 +3,14 @@
 .page_container {
   font-family: 'Mulish', sans-serif;
   font-size: 14px;
-  // min-height: 100vh;
-  height: fit-content;
+  min-height: 100vh;
   display: grid;
   grid-template-columns: 20% 79%;
   grid-template-rows: 25% 74%;
   gap: 1%;
   box-sizing: border-box;
   background-color: #DDE2FF;
+  overflow: hidden;
 
   &__sidebar {
     background-color: #363740;

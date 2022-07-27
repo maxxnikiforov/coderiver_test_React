@@ -7,8 +7,6 @@ export const ListPage = ({ users, setUserId }) => {
   // eslint-disable-next-line no-console
   console.log(users);
 
-  // const all = { users };
-
   return (
     <div className="table">
       <h4 className="table__title">All users</h4>

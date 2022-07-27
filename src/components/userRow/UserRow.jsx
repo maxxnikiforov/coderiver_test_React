@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import './UserRow.scss';
-// import '../../../public/users/1.png';
 
 export const UserRow = ({ user, setUserId }) => (
   <tr className="row">
@@ -44,7 +43,9 @@ export const UserRow = ({ user, setUserId }) => (
         to={`/list/${user.id}`}
         onClick={() => setUserId(user.id)}
       >
-        {user.username}
+        <div className="row__distance">
+          High
+        </div>
       </Link>
     </td>
   </tr>
