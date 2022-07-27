@@ -1,3 +1,32 @@
-.starter {
-  font-size: 18px;
+@import 'utils';
+
+.page_container {
+  font-family: 'Mulish', sans-serif;
+  font-size: 14px;
+  // min-height: 100vh;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 20% 79%;
+  grid-template-rows: 20% 79%;
+  gap: 1%;
+  box-sizing: border-box;
+  background-color: #DDE2FF;
+
+  &__sidebar {
+    background-color: #363740;
+    color: #A4A6B3;
+    grid-column: 1;
+    grid-row: 1 / 3;
+    height: 100%;
+  }
+
+  &__header {
+    grid-column: 2;
+    grid-row: 1 / 2;
+  }
+
+  &__main {
+    grid-column: 2;
+    grid-row: 2 / 3;
+  }
 }
