@@ -21,4 +21,16 @@
     margin-right: 24px;
     margin-left: 32px;
   }
+
+  &__distance {
+    width: 54px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #F12B2C;
+    text-transform: uppercase;
+    border-radius: 12px;
+  }
 }

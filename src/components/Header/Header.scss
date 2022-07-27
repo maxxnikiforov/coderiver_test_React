@@ -1,3 +1,5 @@
+@import '../../utils';
+
 .header {
   background-color: #DDE2FF;
 
@@ -62,6 +64,73 @@
         background-size: contain;
         background-repeat: no-repeat;
         margin-left: 14px;
+      }
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__button {
+    width: 126px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    margin-top: 30px;
+    transition: all 0.3s;
+
+    @include onDesktop {
+      width: 226px;
+      height: 100px;
+    }
+
+    &:hover {
+      border-color: #3751FF;
+      cursor: pointer;
+    }
+
+    &:hover  .header__button-text {
+      color: #3751FF;
+      cursor: pointer;
+    }
+
+    &:hover .header__button-number {
+      border-color: #3751FF;
+      color: #3751FF;
+      cursor: pointer;
+    }
+
+    &-text {
+      font-size: 17px;
+      font-weight: 700;
+      color: #9FA2B4;
+      transition: all 0.3s;
+
+      @include onDesktop {
+        font-size: 19px;
+      }
+
+      &:hover {
+        color: #3751FF;
+      }
+    }
+
+    &-number {
+      font-size: 28px;
+      font-weight: 700;
+      color: #252733;
+      transition: all 0.3s;
+
+      @include onDesktop {
+        font-size: 40px;
       }
     }
   }

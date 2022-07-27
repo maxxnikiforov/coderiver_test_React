@@ -16,5 +16,26 @@ export const Header = () => (
         <div className="header__top-icons-avatar" />
       </div>
     </div>
+    <div className="header__buttons">
+      <div className="header__button">
+        <span className="header__button-text">Active</span>
+        <span className="header__button-number">60</span>
+      </div>
+
+      <div className="header__button">
+        <span className="header__button-text">Online</span>
+        <span className="header__button-number">16</span>
+      </div>
+
+      <div className="header__button">
+        <span className="header__button-text">Filtered</span>
+        <span className="header__button-number">43</span>
+      </div>
+
+      <div className="header__button">
+        <span className="header__button-text">Banned</span>
+        <span className="header__button-number">64</span>
+      </div>
+    </div>
   </div>
 );

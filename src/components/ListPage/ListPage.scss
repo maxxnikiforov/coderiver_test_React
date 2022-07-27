@@ -3,6 +3,10 @@
   border: 2px solid #DFE0EB;
   border-radius: 8px;
 
+  &__body {
+    width: 100%;
+  }
+
   &__title {
     font-size: 19px;
     line-height: 24px;
@@ -29,13 +33,13 @@
     }
 
     &-email {
-      width: 30%;
+      width: 20%;
       text-align: start;
       border-bottom: 1px solid #DFE0EB;
     }
 
     &-dist {
-      width: 10%;
+      width: 20%;
       text-align: start;
       border-bottom: 1px solid #DFE0EB;
     }
