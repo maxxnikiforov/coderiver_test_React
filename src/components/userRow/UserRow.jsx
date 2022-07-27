@@ -14,7 +14,7 @@ export const UserRow = ({ user, setUserId }) => (
       >
         <img
           className="row__img"
-          src={`/users/${user.id}.png`}
+          src={`users/user${user.id}.png`}
           alt="avatar"
         />
         {user.name}
