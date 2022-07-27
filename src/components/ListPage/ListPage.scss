@@ -1,0 +1,43 @@
+.table {
+  background-color: #fff;
+  border: 2px solid #DFE0EB;
+  border-radius: 8px;
+
+  &__title {
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-left: 32px;
+  }
+
+  &__tr {
+
+    &-name {
+      width: 40%;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: start;
+      color: #9FA2B4;
+      border-bottom: 1px solid #DFE0EB;
+      padding-left: 32px;
+    }
+
+    &-company {
+      width: 20%;
+      text-align: start;
+      border-bottom: 1px solid #DFE0EB;
+    }
+
+    &-email {
+      width: 30%;
+      text-align: start;
+      border-bottom: 1px solid #DFE0EB;
+    }
+
+    &-dist {
+      width: 10%;
+      text-align: start;
+      border-bottom: 1px solid #DFE0EB;
+    }
+  }
+}

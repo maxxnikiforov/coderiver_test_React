@@ -1,0 +1,24 @@
+.row {
+  border-bottom: 1px solid #DFE0EB;
+
+  &:hover {
+    background-color: #DDE2FF;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: #252733;
+  }
+
+  &__img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 24px;
+    margin-left: 32px;
+  }
+}
