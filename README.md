@@ -1,9 +1,3 @@
-# React Starter Pack
+[DEMO Link] https://maxxnikiforov.github.io/coderiver_test_React/#/list
 
-To use this template click `Use this template`
-
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+You can get detail users info by push on user's row. Come back to list by push Users button.  
