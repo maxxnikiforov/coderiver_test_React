@@ -1,0 +1,132 @@
+.infoTabs {
+  display: flex;
+  background-color: #DDE2FF;
+  padding: 20px 0;
+
+  &__tickets {
+    width: 49%;
+    margin-right: 2%;
+    background-color: #fff;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+
+    &-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 32px;
+
+      &-paragraph {
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+      }
+
+      &-text {
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 24px;
+        color: #252733;
+      }
+
+      &-details {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        color: #3751FF;
+      }
+
+      &-paragraph {
+        margin: 0 32px;
+      }
+    }
+
+    &-body {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 32px;
+      border-bottom: 1px solid #DFE0EB;
+
+      &-text {
+        display: inline;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+        color: #252733;
+      }
+
+      &-number {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+        color: #9FA2B4;
+      }
+    }
+  }
+
+  &__tasks {
+    width: 49%;
+    background-color: #fff;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+
+    &-text {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 600;
+      color: #C5C7CD;
+    }
+
+    &-new {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 24px;
+      width: 24px;
+      border-radius: 8px;
+      background-color: #F0F1F7;
+      font-size: 24px;
+      color: #9FA2B4;
+    }
+
+    &-finish {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 24px;
+      width: 74px;
+      border-radius: 8px;
+      background-color: #FEC400;
+      font-size: 11px;
+      text-transform: uppercase;
+      color: #fff;
+    }
+
+    &-ticket {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 24px;
+      width: 54px;
+      border-radius: 8px;
+      background-color: #29CC97;
+      font-size: 11px;
+      text-transform: uppercase;
+      color: #fff;
+    }
+
+    &-default {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 24px;
+      width: 76px;
+      border-radius: 8px;
+      background-color: #F0F1F7;
+      font-size: 11px;
+      text-transform: uppercase;
+      color: #9FA2B4;
+    }
+  }
+}
