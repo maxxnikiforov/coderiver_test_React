@@ -3,14 +3,19 @@
 .page_container {
   font-family: 'Mulish', sans-serif;
   font-size: 14px;
-  min-height: 100vh;
   display: grid;
-  grid-template-columns: 20% 79%;
-  grid-template-rows: 25% 74%;
+  grid-template-columns: 25% 74%;
+  grid-template-rows: min-content min-content;
   gap: 1%;
+  
   box-sizing: border-box;
   background-color: #DDE2FF;
   overflow: hidden;
+
+  @include onTablet {
+    grid-template-columns: 20% 79%;
+    padding-right: 12px;
+  }
 
   &__sidebar {
     background-color: #363740;
